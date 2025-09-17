@@ -1,0 +1,164 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPjvKeVxljDhZq+PYTNBIcd",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Maratussyifa/learnpython/blob/main/PYTHON%20MODUL%20AWAL%20(Google%20Collab)\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "iHpG4yqf1iiS",
+        "outputId": "6949c730-931f-44e7-87ae-d8872a1d6a47"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "int"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ],
+      "source": [
+        "a=3\n",
+        "print(a)\n",
+        "type(a)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=3\n",
+        "b= 4+a\n",
+        "b\n",
+        "print(b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1jQXYJDh2vQw",
+        "outputId": "f222205e-6e68-47a8-9816-31280295d6a7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "angka=[1,2,3,4,5,6]\n",
+        "type(angka)\n",
+        "angka[4]\n",
+        "nama=[\"ina\",\"aira\",\"ody\",\"pak arifin\"]\n",
+        "print (nama[3])\n",
+        "print (nama)\n",
+        "print(angka)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sNKyBpTI24Sd",
+        "outputId": "02072a30-b88f-4cc4-8f9b-3c0daed49feb"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "pak arifin\n",
+            "['ina', 'aira', 'ody', 'pak arifin']\n",
+            "[1, 2, 3, 4, 5, 6]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Belanjaan={\"Mangga\":8000,\"Apel\":7000,\"Semangka\":10000,\"Jeruk\":12000}\n",
+        "print(\"Daftar Belanjaa\")\n",
+        "Belanjaan"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "b4InQBwH3WR2",
+        "outputId": "53cdd3eb-4bff-4a66-b332-9dd5f9fbd3dd"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Daftar Belanjaa\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "{'Mangga': 8000, 'Apel': 7000, 'Semangka': 10000, 'Jeruk': 12000}"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "Rfdv2u709Mkm"
+      }
+    }
+  ]
+}
